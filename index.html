@@ -99,7 +99,7 @@
           <!-- card end -->
 
           <!-- card-2 -->
-          <div class="card w-96 bg-base-100 shadow-xl rounded-none border-b-[1px] border-[#E7E7E7] border-r-[1px]">
+          <div class="card w-[100%] lg:w-96 bg-base-100 shadow-xl rounded-none border-b-[1px] border-[#E7E7E7] border-r-[1px] md: sm:">
             <figure class="px-10 pt-10">
               <img src="./images/criminal.png" alt="Shoes" class="rounded-xl" />
             </figure>
@@ -252,7 +252,7 @@
 
 
             </div>
-            <div class="part-two">
+            <div class="part-two flex justify-center lg:">
               <img src="./images/faq.png" class="w-[70%]">
 
             </div>
@@ -266,8 +266,8 @@
             <h1 class="text-4xl font-bold py-6">Contact With Us</h1>
             <p class="text-lg">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
           </div>
-          <div class="main-part flex flex-col lg:flex-row gap-20 mt-12 md: sm:">
-            <div class="left-part grid grid-rows-1 gap-5 lg:grid-cols-2 md: sm:">
+          <div class="main-part flex flex-col lg:flex-row gap-20  mt-12 md: sm:">
+            <div class=" grid-rows-1 justify-center lg:left-part grid grid-rows-1 gap-5 lg:grid-cols-2 md: sm:">
               <!-- card -->
               <div class="card w-96 bg-base-100  flex items-center justify-center bg-[#F3F3F3] rounded-none w-[265px] h-[265px]  border-b-[1px] border-[#E7E7E7] ">
                 
@@ -281,7 +281,7 @@
               </div>
               <!-- card end 1 -->
               <!-- card 2 start -->
-              <div class="card w-96 bg-base-100  flex items-center justify-center bg-[#F3F3F3] rounded-none w-[265px] h-[265px]  border-b-[1px] border-l-[1px] border-[#E7E7E7]">
+              <div class="card border-none  lg:w-96 bg-base-100  flex items-center justify-center bg-[#F3F3F3] rounded-none w-[265px] h-[265px]  border-b-[1px] border-l-[1px] border-[#E7E7E7]">
                 
                 <div class="card-body text-center flex items-center justify-center mt-[40px]">
                   <img src="./images/location.png" class="w-[20%] ">
@@ -294,7 +294,7 @@
 
               <!-- card 2 end -->
               <!-- card 3 start -->
-              <div class="card w-96 bg-base-100  flex items-center justify-center bg-[#F3F3F3] rounded-none w-[265px] h-[265px]   border-[#E7E7E7] border-r-[1px]">
+              <div class="card mb-10 w-96 bg-base-100  flex items-center justify-center bg-[#F3F3F3] rounded-none w-[265px] h-[265px]   border-[#E7E7E7] border-r-[1px]">
                 
                 <div class="card-body text-center flex items-center justify-center mt-[40px]">
                   <img src="./images/location.png" class="w-[20%] ">
@@ -327,7 +327,7 @@
               <input class="w-full py-5 rounded-lg pl-5" type="text" placeholder="You subject" class="input input-bordered w-full max-w-xs" disabled />
             
               <!-- text are -->
-              <textarea class="textarea py-16" placeholder="Your message" disabled></textarea>
+              <textarea class="textarea py-5 lg:py-16" placeholder="Your message" disabled></textarea>
               <!-- text are -->
               <div class="navbar-end">
                 <button class="btn w-[100%]  lg:w-[600px] btn-active btn-secondary border-0 mt-5 bg-[#b68c5a] text-lg md: sm:">Send Message</button>
@@ -343,7 +343,7 @@
     </main>
     
       <footer class=" footer p-10 bg-[#111] text-white text-base-content mt-24 h-[300px] flex items-center justify-center">
-        <div class="main grid grid-cols-2  lg:container mx-auto xl:max-w-6xl flex justify-between md: sm:">
+        <div class="main grid grid-cols-2  lg:flex container mx-auto xl:max-w-6xl flex justify-between md: sm:">
           <nav class=" flex flex-col">
             <header class="footer-title"><img src="./images/logo2.png" class="w-[60%]"></header> 
             <a class="link link-hover">Branding</a>
@@ -364,15 +364,15 @@
             <a class="link link-hover">Privacy policy</a>
             <a class="link link-hover">Cookie policy</a>
           </nav> 
-          <form class="flex flex-col">
+          <form class="flex flex-col hidden lg:block flex-col md">
             <header class="footer-title">Newsletter</header> 
-            <fieldset class="form-control w-80">
+            <fieldset class="form-control lg:w-80">
               <label class="label">
                 <span class="label-text text-white">Enter your email address</span>
               </label> 
               <div class="join ">
-                <input type="text" placeholder="username@site.com" class="input input-bordered join-item w-[30%]" /> 
-                <button class="btn lg:btn-primary size-10 px-6 bg-[#b68c5a] border-0 join-item md: sm:"><i class="fa-solid fa-square-up-right "></i></button>
+                <input type="text" placeholder="username@site.com" class="input input-bordered join-item " /> 
+                <button class="btn lg:btn-primary size-10 px-6 bg-[#b68c5a] border-0 join-item md: sm:"></button>
               </div>
             </fieldset>
           </form>
