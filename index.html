@@ -205,7 +205,7 @@
             <h1 class="text-4xl font-bold py-6">Frequently Asked Any Questions</h1>
             <p class="text-lg">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
           </div>
-          <div class="section mt-16 flex justify-between items-center justify-center gap-10 mt-10">
+          <div class=" mt-16 flex flex-col lg:flex-row justify-between items-center justify-center gap-10 mt-10 md: sm:">
             <div class="part-one flex flex-col gap-5 w-[45%]">
               <!-- dasiy ui -->
               <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-200">
@@ -266,8 +266,8 @@
             <h1 class="text-4xl font-bold py-6">Contact With Us</h1>
             <p class="text-lg">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
           </div>
-          <div class="main-part flex gap-10 mt-12">
-            <div class="left-part grid grid-cols-2">
+          <div class="main-part flex flex-col lg:flex-row gap-20 mt-12 md: sm:">
+            <div class="left-part grid grid-rows-1 gap-5 lg:grid-cols-2 md: sm:">
               <!-- card -->
               <div class="card w-96 bg-base-100  flex items-center justify-center bg-[#F3F3F3] rounded-none w-[265px] h-[265px]  border-b-[1px] border-[#E7E7E7] ">
                 
@@ -330,7 +330,7 @@
               <textarea class="textarea py-16" placeholder="Your message" disabled></textarea>
               <!-- text are -->
               <div class="navbar-end">
-                <button class="btn  w-[600px] btn-active btn-secondary border-0 mt-5 bg-[#b68c5a] text-lg">Send Message</button>
+                <button class="btn w-[100%]  lg:w-[600px] btn-active btn-secondary border-0 mt-5 bg-[#b68c5a] text-lg md: sm:">Send Message</button>
              </div>
 
               <!--  -->
@@ -343,7 +343,7 @@
     </main>
     
       <footer class=" footer p-10 bg-[#111] text-white text-base-content mt-24 h-[300px] flex items-center justify-center">
-        <div class="main container mx-auto xl:max-w-6xl flex justify-between">
+        <div class="main grid grid-cols-2  lg:container mx-auto xl:max-w-6xl flex justify-between md: sm:">
           <nav class=" flex flex-col">
             <header class="footer-title"><img src="./images/logo2.png" class="w-[60%]"></header> 
             <a class="link link-hover">Branding</a>
@@ -370,9 +370,9 @@
               <label class="label">
                 <span class="label-text text-white">Enter your email address</span>
               </label> 
-              <div class="join">
-                <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
-                <button class="btn btn-primary size-10 px-6 bg-[#b68c5a] border-0 join-item"><i class="fa-solid fa-square-up-right "></i></button>
+              <div class="join ">
+                <input type="text" placeholder="username@site.com" class="input input-bordered join-item w-[30%]" /> 
+                <button class="btn lg:btn-primary size-10 px-6 bg-[#b68c5a] border-0 join-item md: sm:"><i class="fa-solid fa-square-up-right "></i></button>
               </div>
             </fieldset>
           </form>
